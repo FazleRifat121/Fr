@@ -23,7 +23,7 @@ const Navbar = () => {
     </>,
   ];
   return (
-    <div className="navbar ">
+    <div className="navbar my-5 ">
       <div className="navbar-start">
         <a className=" text-4xl">Fr</a>
       </div>
