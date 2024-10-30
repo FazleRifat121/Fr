@@ -5,17 +5,20 @@ const Navbar = () => {
   const links = [
     <>
       <li>
-        <a href="">
+        <a
+          href="https://www.linkedin.com/in/fazle-rifat-660bb2328/"
+          target="_blank"
+        >
           <FaLinkedin />
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="https://github.com/FazleRifat121" target="_blank">
           <FaGithub />
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="https://www.facebook.com/fazle.rifat.5/" target="_blank">
           <FaFacebookSquare />
         </a>
       </li>

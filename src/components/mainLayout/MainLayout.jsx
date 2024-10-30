@@ -3,6 +3,7 @@ import Banner from "../banner/Banner";
 import About from "../about/About";
 import Tech from "../tech/Tech";
 import Projects from "../projects/Projects";
+import Contact from "../contact/Contact";
 
 const MainLayout = () => {
   return (
@@ -17,6 +18,7 @@ const MainLayout = () => {
         <About></About>
         <Tech></Tech>
         <Projects></Projects>
+        <Contact></Contact>
       </div>
     </div>
   );
