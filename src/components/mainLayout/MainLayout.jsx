@@ -2,6 +2,7 @@ import Navbar from "../navbar/Navbar";
 import Banner from "../banner/Banner";
 import About from "../about/About";
 import Tech from "../tech/Tech";
+import Projects from "../projects/Projects";
 
 const MainLayout = () => {
   return (
@@ -15,6 +16,7 @@ const MainLayout = () => {
         <Banner></Banner>
         <About></About>
         <Tech></Tech>
+        <Projects></Projects>
       </div>
     </div>
   );
