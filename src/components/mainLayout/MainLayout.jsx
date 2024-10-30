@@ -1,7 +1,7 @@
-import React from "react";
 import Navbar from "../navbar/Navbar";
 import Banner from "../banner/Banner";
 import About from "../about/About";
+import Tech from "../tech/Tech";
 
 const MainLayout = () => {
   return (
@@ -14,6 +14,7 @@ const MainLayout = () => {
         <Navbar></Navbar>
         <Banner></Banner>
         <About></About>
+        <Tech></Tech>
       </div>
     </div>
   );
