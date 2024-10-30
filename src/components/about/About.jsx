@@ -1,4 +1,5 @@
 import img from "../../assets/cover.jpg";
+import { motion } from "framer-motion";
 const About = () => {
   return (
     <div className="border-b border-neutral-500 pb-4">
@@ -8,12 +9,24 @@ const About = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex items-center justify-center">
-            <img src={img} alt="about" className="rounded-2xl max-w-sm" />
+            <motion.img
+              initial={{ x: -100, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5 }}
+              src={img}
+              alt="about"
+              className="rounded-2xl max-w-sm"
+            />
           </div>
         </div>
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">
+            <motion.p
+              className="my-2 max-w-xl py-6"
+              initial={{ x: 100, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5 }}
+            >
               Hello! I’m Fazle Rifat, a passionate frontend web developer with a
               keen curiosity for how websites are built and function. My journey
               into web development began with a fascination for the digital
@@ -24,7 +37,7 @@ const About = () => {
               landing pages. Each project is an opportunity for me to learn and
               grow, and I’m excited to continue exploring the endless
               possibilities in web development.
-            </p>
+            </motion.p>
           </div>
         </div>
       </div>

@@ -8,17 +8,26 @@ const Navbar = () => {
         <a
           href="https://www.linkedin.com/in/fazle-rifat-660bb2328/"
           target="_blank"
+          className="hover:text-cyan-300"
         >
           <FaLinkedin />
         </a>
       </li>
       <li>
-        <a href="https://github.com/FazleRifat121" target="_blank">
+        <a
+          href="https://github.com/FazleRifat121"
+          target="_blank"
+          className="hover:text-cyan-300"
+        >
           <FaGithub />
         </a>
       </li>
       <li>
-        <a href="https://www.facebook.com/fazle.rifat.5/" target="_blank">
+        <a
+          href="https://www.facebook.com/fazle.rifat.5/"
+          target="_blank"
+          className="hover:text-cyan-300"
+        >
           <FaFacebookSquare />
         </a>
       </li>
@@ -27,7 +36,9 @@ const Navbar = () => {
   return (
     <div className="navbar my-5 ">
       <div className="navbar-start">
-        <a className=" text-4xl">Fr</a>
+        <a href="/" className=" text-4xl hover:text-cyan-300">
+          Fr
+        </a>
       </div>
 
       <div className="navbar-end ">
