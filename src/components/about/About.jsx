@@ -1,5 +1,7 @@
 import img from "../../assets/cover.jpg";
 import { motion } from "framer-motion";
+import cv from "../../assets/CV of Fazle Rifat.pdf";
+import "./style.css";
 const About = () => {
   return (
     <div className="border-b border-neutral-500 pb-4">
@@ -39,6 +41,11 @@ const About = () => {
               possibilities in web development.
             </motion.p>
           </div>
+          <button className="btn-cv">
+            <a href={cv} className="link-cv" download="CV">
+              Download CV
+            </a>
+          </button>
         </div>
       </div>
     </div>
