@@ -42,7 +42,7 @@ const About = () => {
             </motion.p>
           </div>
           <button className="btn-cv">
-            <a href={cv} className="link-cv" download="CV">
+            <a href={cv} className="link-cv" download="CV of Fazle Rifat">
               Download CV
             </a>
           </button>
