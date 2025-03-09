@@ -1,7 +1,9 @@
 import img from "../../assets/cover.jpg";
+import img2 from "../../assets/jan-2025.jpg";
 import { motion } from "framer-motion";
 import cv from "../../assets/CV of Fazle Rifat.pdf";
 import "./style.css";
+import "./about.css";
 const About = () => {
   return (
     <div className="border-b border-neutral-500 pb-4">
@@ -11,14 +13,26 @@ const About = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex items-center justify-center">
-            <motion.img
+            {/* card  */}
+            <motion.div
+              class="flip-card"
               initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
-              src={img}
-              alt="about"
-              className="rounded-2xl max-w-sm"
-            />
+            >
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src={img2}
+                    alt="about"
+                    className="rounded-2xl max-w-sm"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <img src={img} alt="about" className="rounded-2xl max-w-sm" />
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
         <div className="w-full lg:w-1/2">
