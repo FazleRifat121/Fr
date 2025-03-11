@@ -4,7 +4,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 const Navbar = () => {
   const links = [
     <>
-      <li>
+      <li key={1}>
         <a
           href="https://www.linkedin.com/in/fazle-rifat-660bb2328/"
           target="_blank"
@@ -13,7 +13,7 @@ const Navbar = () => {
           <FaLinkedin />
         </a>
       </li>
-      <li>
+      <li key={2}>
         <a
           href="https://github.com/FazleRifat121"
           target="_blank"
@@ -22,7 +22,7 @@ const Navbar = () => {
           <FaGithub />
         </a>
       </li>
-      <li>
+      <li key={3}>
         <a
           href="https://www.facebook.com/fazle.rifat.5/"
           target="_blank"

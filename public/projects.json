@@ -22,5 +22,13 @@
     "img": "https://i.ibb.co.com/mJwp4kj/Screenshot-1.png",
     "link": "https://frolicking-taffy-336307.netlify.app/",
     "tech": ["HTML", "CSS", "Bootstrap"]
+  },
+  {
+    "id": 4,
+    "title": "Search Engine Optimised web",
+    "description": "A Search Engine Optimised Website with API .",
+    "img": "https://i.ibb.co.com/rfKvVX8N/Screenshot-3.png",
+    "link": "https://moviemania01.netlify.app/",
+    "tech": ["HTML", "CSS", "Tailwind", "JS", "React", "SEO"]
   }
 ]

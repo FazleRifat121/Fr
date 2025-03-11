@@ -15,20 +15,20 @@ const About = () => {
           <div className="flex items-center justify-center">
             {/* card  */}
             <motion.div
-              class="flip-card my-10 lg:my-5"
+              className="flip-card my-10 lg:my-5"
               initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
                   <img
                     src={img2}
                     alt="about"
                     className="rounded-2xl max-w-sm"
                   />
                 </div>
-                <div class="flip-card-back">
+                <div className="flip-card-back">
                   <img src={img} alt="about" className="rounded-2xl max-w-sm" />
                 </div>
               </div>
